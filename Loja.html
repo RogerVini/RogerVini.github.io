@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/> 
+    <link rel="stylesheet" href="style7.css">
+    <title>Loja</title>
+</head>
+<body>
+<center>
+    <img src="BANNER 5.0.png" width="100%"/>
+    <section class="banner">
+        <input type="search" class="banner__pesquisa" placeholder="Pesquisa">
+    </section>
+</center>
+    <section class="carrossel" >
+        <h2 class="carrossel__titulo">Camisas</h2>
+        <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="camisa1.png"alt="artista-1"></div>
+            <div class="swiper-slide"><img src="camisa2.png"alt="artista-2"></div>
+            <div class="swiper-slide"><img src="camisa3.png"alt="artista-3"></div>
+            <div class="swiper-slide"><img src="camisa4.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa5.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa6.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa7.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa8.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa9.png"alt="artista-4"></div>
+            <div class="swiper-slide"><img src="camisa10.png"alt="artista-4"></div>
+        </div>
+    </div>
+    </section>
+    <section class="carrossel" >
+        <h2 class="carrossel__titulo">Moletons</h2>
+        <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="moletom1.png"alt="artista-1"></div>
+            <div class="swiper-slide"><img src="moletom2.png"alt="artista-2"></div>
+            <div class="swiper-slide"><img src="moletom3.png"alt="artista-3"></div>
+            <div class="swiper-slide"><img src="moletom4.png"alt="artista-4"></div>
+        </div>
+    </div>
+    </section>
+    <center>
+        <h2 class="contato__titulo">Mais novidades a caminho</h2>
+        <p class="contato__texto">Uma experiência para a vida toda.</p>
+    </center>
+        </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper',{
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el:'.swiper-pagination',
+                    type:'bullets',
+                },
+            });
+        </script>
+</body>
+</html>

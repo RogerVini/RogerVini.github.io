@@ -1,0 +1,21 @@
+BODY {background-color: #000000;}
+
+h1 { 
+    color: white;
+    font-size: 40;
+    line-height: 120%;
+    text-align: center;
+}
+
+h2 { 
+    color: #F20530;
+    line-height: 200%;
+}
+
+h3 { 
+    color: #F2BC57;
+}
+
+p  { 
+    color: white;
+}

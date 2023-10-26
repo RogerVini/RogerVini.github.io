@@ -1,0 +1,82 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+:root{
+    --cor-de--fundo:#094D59;
+    --cor-do-menu:#000080;
+    --titulo: #2e8b57;
+    --cor-do-menu-fundo: #0000CD;
+    --link-1:#DC143C;
+    --link-2:#F0E68C;
+    --link-3:#98FB98;
+    --fonte-principal:"Fasthand"
+}
+body{
+    background-color: var(--cor-de--fundo);
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+    color: white;
+    font-size: 40;
+    line-height: 150%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.lista-menu__titulo{
+    color: white;
+}
+
+.lista-menu__item{
+    display: inline-block;
+}
+
+.card {
+    display: grid;
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+    row-gap: 1em;
+    text-align: center;
+    color: white;
+}
+
+.descrição__imagem{
+    border-radius: 3%;
+}
+
+.topicos{
+    color: white
+}
+
+.rodape{
+    color: white;
+}
+
+.lista-rodape{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color:white;
+}
+
+.lista-rodape__link{
+    color: white;
+}

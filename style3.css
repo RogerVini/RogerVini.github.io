@@ -1,0 +1,130 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #3C5148;
+    --botao-azul: #3C5148;
+    --cor-de-fundo: #1B2727;
+    --botao-vermelho: #6B8E4E;
+    --botao-rosa: #400409;
+    --botão-efeito-cor:#a7dd5f;
+    --botão-rosinha: #3C5148;
+    --botão-branco-2: #FFFFFF;
+
+}
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url("Guns.jpeg");
+    background-repeat: no-repeat;
+    margin-top: 0.5em;
+    margin-right: 10em;
+    text-align: left;
+    min-height: 100%;
+    background-size: contain;
+    background-position: right;
+    
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--botão-branco-2);
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+.botao_secundario{
+    background-color: #B2C5B2;
+    border: 2px solid var(#B2C5B2);
+}
+.titulo{
+    text-align: center;
+    color: var(--branco-principal);
+    margin: 1em 0 1em 0;
+    font-size: 34px;
+}
+.container__botao-1{
+    background-color: var(--botao-vermelho);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--botão-branco-2);
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    text-decoration: none;    
+}
+.container__caixa{
+    margin: 0 8em;
+}
+.container__secundario{
+    width: 90%;
+    border-radius: 5%;
+}
+.secundario{
+    margin: 1em;
+}
+.secundario__botao{
+    display: inline-block;
+    margin: 1em 5em;
+    background-color: var(--botao-azul);
+}
+.secundario__imagem{
+    width: 102%;
+    border-radius: 5%;
+}
+.descricao__texto{
+    margin: center;
+    text-align: center;
+    padding: 0.7em;
+    font-size: 20px
+}
+.container__descricao{
+    margin: center;
+    text-align: center;
+    padding: 1em;
+}
+.Jogos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.Primeiros-Jogos{
+    text-align: center;
+    font-size: 24px;
+}
+.Fnaf-1{
+    margin: 0em 0em 0em 0em;
+    border-radius: 10%;
+    max-width: 75%;
+}
+.Fnaf-2{
+    margin: 0em 0em 0em 0em;
+    border-radius: 10%;
+    max-width: 75%;
+}
+.Fnaf-3{
+    border-radius: 10%;
+    margin: 0em 0em 0em 0em;
+    max-width: 75%;
+}
+.container__botao:hover{
+    background-color: var(--botão-efeito-cor);
+
+}
+.container__botao-1:hover{
+    background-color: var(--botão-efeito-cor);
+}
+.lista__item{
+    margin: 8em 1em 1em 6em;
+}
